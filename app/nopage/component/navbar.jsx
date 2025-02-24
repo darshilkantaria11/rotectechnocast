@@ -15,7 +15,7 @@ export default function Navbar() {
     };
 
     return (
-        <nav className="fixed top-0 left-0 w-full bg-black  text-white z-50 mt-2">
+        <nav className="fixed top-0 left-0 w-full bg-black  text-white z-50 ">
             <div className="px-4 md:px-8 py-1 flex justify-between items-center rounded-full   ">
                 {/* Logo */}
                 <Link href="/">
@@ -26,8 +26,8 @@ export default function Navbar() {
                 {/* Desktop Links */}
                 <div className="hidden md:flex items-center space-x-8 text-lg font-medium">
                     <Link href="/" className="hover:text-[#f58731] transition-all duration-300">Home</Link>
-                    <Link href="#" className="hover:text-[#f58731] transition-all duration-300">Services</Link>
-                    <Link href="#" className="hover:text-[#f58731] transition-all duration-300">Projects</Link>
+                    <Link href="#" className="hover:text-[#f58731] transition-all duration-300">About Us</Link>
+                    <Link href="#" className="hover:text-[#f58731] transition-all duration-300">Our Products</Link>
                     <Link href="#" className="hover:text-[#f58731] transition-all duration-300">Contact</Link>
                 </div>
 
@@ -38,7 +38,7 @@ export default function Navbar() {
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.95 }}
                 >
-                    Get a Quote
+                    Chat with us
                 </motion.a>
 
                 {/* Mobile Menu Button */}
@@ -55,8 +55,8 @@ export default function Navbar() {
             >
                 <div className="flex flex-col items-center space-y-4 py-4 text-lg font-medium">
                     <Link href="/" className="hover:text-[#f58731] transition-all duration-300">Home</Link>
-                    <Link href="#" className="hover:text-[#f58731] transition-all duration-300">Services</Link>
-                    <Link href="#" className="hover:text-[#f58731] transition-all duration-300">Projects</Link>
+                    <Link href="#" className="hover:text-[#f58731] transition-all duration-300">About US</Link>
+                    <Link href="#" className="hover:text-[#f58731] transition-all duration-300">Our Products</Link>
                     <Link href="#" className="hover:text-[#f58731] transition-all duration-300">Contact</Link>
                     <motion.a
                         href="#"
@@ -64,7 +64,7 @@ export default function Navbar() {
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.95 }}
                     >
-                        Get a Quote
+                        Chat with us
                     </motion.a>
                 </div>
             </motion.div>
