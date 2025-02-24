@@ -49,7 +49,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 1 }}
-            className="text-6xl md:text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#f58731] to-[#a2223d]"
+            className="text-5xl md:text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#f58731] to-[#a2223d]"
           >
             MELT.
           </motion.h1>
@@ -58,7 +58,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1, duration: 1 }}
-            className="text-6xl md:text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gray-100 to-gray-400"
+            className="text-5xl md:text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gray-100 to-gray-400"
           >
             MOLD.
           </motion.h1>
@@ -67,7 +67,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.5, duration: 1 }}
-            className="text-6xl md:text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#a2223d] to-[#f58731]"
+            className="text-5xl md:text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#a2223d] to-[#f58731]"
           >
             MASTERPIECE.
           </motion.h1>
