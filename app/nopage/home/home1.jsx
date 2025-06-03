@@ -93,7 +93,7 @@ export default function HeroSection() {
       >
         {/* Start Project Button */}
         <motion.a
-          href="#"
+          href="/contact-us"
           className="px-8 py-4 bg-[#f58731] text-lg font-bold rounded-full  hover:bg-[#a2223d] transition duration-100 m-2"
           whileHover={{ scale: 1.1}}
           whileTap={{ scale: 0.95 }}
@@ -103,12 +103,12 @@ export default function HeroSection() {
 
         {/* View Work Button */}
         <motion.a
-          href="#"
+          href="/about-us"
           className="px-8 py-4 border-2 border-[#f58731] text-lg font-bold rounded-full  text-[#f58731] hover:bg-[#f58731] hover:text-black transition duration-100 m-2"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
         >
-          View Our Work
+          Know more
         </motion.a>
       </motion.div>
 

@@ -71,7 +71,7 @@ export default function AboutUs() {
             </section>
 
             {/* Meet Our Team Section */}
-            <section className="bg-gray-800 py-20">
+            {/* <section className="bg-gray-800 py-20">
                 <div className="max-w-6xl mx-auto px-6 text-center">
                     <h2 className="text-4xl font-bold text-[#f58731] mb-12">Meet Our Team</h2>
                     <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-10">
@@ -95,7 +95,7 @@ export default function AboutUs() {
                         ))}
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             {/* Call to Action */}
             <section className="text-center py-20 px-6">
@@ -109,7 +109,7 @@ export default function AboutUs() {
                     <p className="text-lg text-gray-300 max-w-3xl mx-auto mb-6">
                         We are always innovating and pushing the boundaries in metal casting. Be a part of our growing success story.
                     </p>
-                    <a href="/contact" className="bg-[#f58731] text-white px-6 py-3 rounded-full font-semibold text-lg shadow-md hover:bg-[#a2223d] transition duration-300">
+                    <a href="/contact-us" className="bg-[#f58731] text-white px-6 py-3 rounded-full font-semibold text-lg shadow-md hover:bg-[#a2223d] transition duration-300">
                         Contact Us
                     </a>
                 </motion.div>

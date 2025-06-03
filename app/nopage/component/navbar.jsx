@@ -27,13 +27,13 @@ export default function Navbar() {
                 <div className="hidden md:flex items-center space-x-8 text-lg font-medium">
                     <Link href="/" className="hover:text-[#f58731] transition-all duration-300">Home</Link>
                     <Link href="/about-us" className="hover:text-[#f58731] transition-all duration-300">About Us</Link>
-                    <Link href="#" className="hover:text-[#f58731] transition-all duration-300">Our Products</Link>
+                    {/* <Link href="#" className="hover:text-[#f58731] transition-all duration-300">Our Products</Link> */}
                     <Link href="/contact-us" className="hover:text-[#f58731] transition-all duration-300">Contact</Link>
                 </div>
 
                 {/* CTA Button */}
                 <motion.a
-                    href="#"
+                    href="/contact-us"
                     className="hidden md:block px-6 py-2 bg-[#f58731] text-lg font-bold rounded-full shadow-md hover:bg-[#a2223d] transition-all duration-300"
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.95 }}
@@ -56,10 +56,10 @@ export default function Navbar() {
                 <div className="flex flex-col items-center space-y-4 py-4 text-lg font-medium">
                     <Link href="/" className="hover:text-[#f58731] transition-all duration-300">Home</Link>
                     <Link href="/about-us" className="hover:text-[#f58731] transition-all duration-300">About US</Link>
-                    <Link href="#" className="hover:text-[#f58731] transition-all duration-300">Our Products</Link>
+                    {/* <Link href="#" className="hover:text-[#f58731] transition-all duration-300">Our Products</Link> */}
                     <Link href="/contact-us" className="hover:text-[#f58731] transition-all duration-300">Contact</Link>
                     <motion.a
-                        href="#"
+                        href="/contact-us"
                         className="px-6 py-2 bg-[#f58731] text-lg font-bold rounded-full shadow-md hover:bg-[#a2223d] transition-all duration-300"
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.95 }}

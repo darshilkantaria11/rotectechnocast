@@ -24,9 +24,9 @@ export default function Footer() {
           <h3 className="text-xl font-bold text-[#f58731] mb-4">Quick Links</h3>
           <ul className="space-y-2">
             <li><a href="/" className="hover:text-white transition">Home</a></li>
-            <li><a href="/services" className="hover:text-white transition">Services</a></li>
-            <li><a href="/projects" className="hover:text-white transition">Projects</a></li>
-            <li><a href="/contact" className="hover:text-white transition">Contact</a></li>
+            <li><a href="/about-us" className="hover:text-white transition">About us</a></li>
+            {/* <li><a href="/projects" className="hover:text-white transition">Projects</a></li> */}
+            <li><a href="/contact-us" className="hover:text-white transition">Contact</a></li>
           </ul>
         </div>
 
@@ -35,15 +35,19 @@ export default function Footer() {
           <h3 className="text-xl font-bold text-[#f58731] mb-4">Contact Us</h3>
           <div className="flex items-center justify-center md:justify-start gap-3">
             <FaPhone className="text-[#f58731]" />
-            <p className="text-sm">+91 98765 43210</p>
+            <p className="text-sm">+91 9825610751</p>
+          </div>
+            <div className="flex items-center justify-center md:justify-start gap-3">
+            <FaPhone className="text-[#f58731]" />
+            <p className="text-sm">+91 9925165711</p>
           </div>
           <div className="flex items-center justify-center md:justify-start gap-3 mt-2">
             <FaEnvelope className="text-[#f58731]" />
-            <p className="text-sm">info@rotetectechno.com</p>
+            <p className="text-sm">rotectechnocast@gmail.com</p>
           </div>
           <div className="flex items-center justify-center md:justify-start gap-3 mt-2">
             <FaMapMarkerAlt className="text-[#f58731]" />
-            <p className="text-sm">Ahmedabad, India</p>
+            <p className="text-sm">Rajkot, India</p>
           </div>
         </div>
       </div>

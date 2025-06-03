@@ -57,7 +57,7 @@ export default function ContactUs() {
                         className="bg-gray-800 p-8 rounded-lg shadow-lg text-center"
                     >
                         <h3 className="text-2xl font-semibold text-[#f58731]">📍 Our Location</h3>
-                        <p className="text-gray-300 mt-2">Rotec Techno Cast, Gujarat, India</p>
+                        <p className="text-gray-300 mt-2">Rotec Techno Cast, Rajkot, Gujarat, India</p>
                     </motion.div>
 
                     <motion.div
@@ -68,10 +68,25 @@ export default function ContactUs() {
                         className="bg-gray-800 p-8 rounded-lg shadow-lg text-center"
                     >
                         <h3 className="text-2xl font-semibold text-[#f58731]">📞 Contact Us</h3>
-                        <p className="text-gray-300 mt-2">+91 98765 43210</p>
-                        <p className="text-gray-300">info@roteccast.com</p>
+                        <p className="text-gray-300 mt-2">+91 9825610751</p>
+                        <p className="text-gray-300 mt-2">+91 9925165711</p>
+                        <p className="text-gray-300">rotectechnocast@gmail.com</p>
                     </motion.div>
                 </div>
+            </section>
+
+             <section className="text-center pb-20">
+                <Link href={`https://wa.me/919898144023?text=${encodeURIComponent(whatsappMessage)}`} target="_blank">
+                    <motion.button
+                        initial={{ opacity: 0, scale: 0.9 }}
+                        whileInView={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: 0.8 }}
+                        viewport={{ once: true }}
+                        className="bg-green-600 text-white px-6 py-3 rounded-full font-semibold text-lg shadow-md hover:bg-green-600 transition duration-300"
+                    >
+                        📲 Chat on WhatsApp
+                    </motion.button>
+                </Link>
             </section>
 
             {/* Google Maps Embed */}
@@ -105,7 +120,7 @@ export default function ContactUs() {
             </section>
 
             {/* Contact Form */}
-            <section className="max-w-4xl mx-auto py-16 px-6">
+            {/* <section className="max-w-4xl mx-auto py-16 px-6">
                 <motion.h2
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -129,22 +144,10 @@ export default function ContactUs() {
                         Send Message
                     </button>
                 </motion.form>
-            </section>
+            </section> */}
 
             {/* WhatsApp Button */}
-            <section className="text-center pb-20">
-                <Link href={`https://wa.me/919876543210?text=${encodeURIComponent(whatsappMessage)}`} target="_blank">
-                    <motion.button
-                        initial={{ opacity: 0, scale: 0.9 }}
-                        whileInView={{ opacity: 1, scale: 1 }}
-                        transition={{ duration: 0.8 }}
-                        viewport={{ once: true }}
-                        className="bg-green-500 text-white px-6 py-3 rounded-full font-semibold text-lg shadow-md hover:bg-green-600 transition duration-300"
-                    >
-                        📲 Chat on WhatsApp
-                    </motion.button>
-                </Link>
-            </section>
+           
         </div>
     );
 }
