@@ -18,7 +18,7 @@ export default function ContactUs() {
             {/* Hero Section */}
             <section className="relative w-full h-[60vh] flex items-center justify-center text-center px-6">
                 <div className="absolute inset-0 bg-black opacity-50"></div>
-                <Image src="/contact-hero.jpg" alt="Contact Us" fill className="object-cover brightness-50" />
+                {/* <Image src="/contact-hero.jpg" alt="Contact Us" fill className="object-cover brightness-50" /> */}
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
